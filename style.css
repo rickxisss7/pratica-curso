@@ -113,10 +113,9 @@ margin: 0 20px;
 padding: 0 2%;
 }
 
-main{
-    margin: 0;
-    animation: flutuar 2s infinite ease-in-out;
-}
+
+  
+
 .conteudo2 h1 {
 width: 100%;
 font-size: 25px;
@@ -137,9 +136,5 @@ color: rgb(104, 104, 104);
 }
 
 
-@keyframes flutuar {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-15px); }
-    100% { transform: translateY(0); }
-}
+
 }
