@@ -36,10 +36,6 @@ font-weight: bold;
 
 }
 
-main {
-    animation: flutuar 2s infinite ease-in-out;
-   
-}
 
 
 .caixa{
@@ -88,11 +84,6 @@ background-color: rgba(0, 0, 0, 0.603);
 
 }
 
-@keyframes flutuar {
-    0% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-    100% { transform: translateY(0); }
-}
 
 
 @media (max-width: 650px) {
@@ -113,8 +104,6 @@ margin: 0 20px;
 padding: 0 2%;
 }
 
-
-  
 
 .conteudo2 h1 {
 width: 100%;
