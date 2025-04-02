@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap');
+body{
+background-image: url(https://img.nsctotal.com.br/wp-content/uploads/2023/10/Ceu-Azul.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+}
+.principal {
+margin: auto;
+max-width: 600px;
+
+}
+.nome{
+    background-color: rgba(221, 89, 12, 0.753);
+color: rgb(0, 0, 0);
+border-radius: 2px;
+font-family: "Signika Negative", sans-serif;
+font-size: 25px;
+position: absolute;
+top: 70px;
+left: 175px;
+}
+#pesq{
+padding: 5px 180px;
+border-radius: 8px;
+top: 160px;
+left: 40px;
+position: relative;
+background-color: rgb(255, 249, 242);
+border: none;
+font-family: "Signika Negative", sans-serif;
+font-weight: bold;
+
+
+}
+
+main {
+    animation: flutuar 2s infinite ease-in-out;
+   
+}
+
+
+.caixa{
+height: 94vh;
+padding: 10px;
+background-color: black;
+position: relative;
+border-radius: 20px;
+}
+
+.conteudo {
+background-image: url(https://s.zst.com.br/cms-assets/2021/06/como-fazer-corda-no-minecraft-capa.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 200px;
+padding: 0 0 0 10px;
+border-radius: 30px;
+}
+
+.conteudo2 {
+background-image: url(https://media0.giphy.com/media/xuKKNNyZupc16XMAg3/giphy.gif?cid=6c09b952pr33told4iq9my2ywayr5n8vnn4nbvyep0lj6tw0&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=v ); 
+background-size: cover; 
+background-position: center bottom;
+
+ height: 200px;
+ border-radius: 30px;
+ position: relative;
+ top: 280px;
+ margin: 0 10px 0 0;
+}
+
+.press {
+position: relative;
+top: 160px;
+left: 185px;
+padding: 4px 60px;
+}
+.conteudo2 h1 {
+position: absolute;
+top: 0px;
+font-family: "Michroma", sans-serif;;
+font-size: 36px;
+color: rgb(255, 216, 179);
+background-color: rgba(0, 0, 0, 0.603);
+
+
+}
+
+@keyframes flutuar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
+
+@media (max-width: 650px) {
+    .nome{
+    margin: 0 20px;
+    width: auto;
+     top: 70px;
+     left: 95px;
+    }
+    #pesq{
+  position: absolute;
+  padding: 6px ;
+  right: 25px;
+  left: 25px;
+    }
+.nome {
+margin: 0 20px;
+padding: 0 2%;
+}
+
+main{
+    margin: 19px 20px;
+    animation: flutuar 2s infinite ease-in-out;
+}
+.conteudo2 h1 {
+width: 100%;
+font-size: 28px;
+top: 25px;
+
+}
+.press{
+position: absolute;
+top: 168px;
+left: 105px;
+border-radius: 20px;
+background-image: url(imagem/mine.jpg) ;
+background-size: cover;
+font-weight: bolder;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(104, 104, 104);
+
+}
+
+
+@keyframes flutuar {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+}
